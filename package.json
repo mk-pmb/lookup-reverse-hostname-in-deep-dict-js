@@ -1,0 +1,40 @@
+{ "name": "lookup-reverse-hostname-in-deep-dict",
+  "version": "0.0.0",
+  "description": "Lookup a reverse hostname (net.example.domain.sub.dom.ains) in a dictionary object where each level has one hostname part as the keys – or certain kinds of wildcards.",
+  "keywords": [],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/lookup-reverse-hostname-in-deep-dict-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/lookup-reverse-hostname-in-deep-dict-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/lookup-reverse-hostname-in-deep-dict-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "scripts": { "test": "elp && nodemjs test/all.mjs" },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {
+    "getown": "^1.0.0",
+    "is-string": "^1.0.7",
+    "lodash.mapvalues": "^4.6.0"
+  },
+  "devDependencies": {
+    "eslint-config-nodejs-pmb": "^0.3.6",
+    "eslint-plugin-json-light-pmb": "^1.0.7",
+    "eslint-plugin-n": "^17.10.2",
+    "eslint-pretty-pmb": "^1.0.5",
+    "nodemjs": "^0.1.15",
+    "p-fatal": "^0.1.5",
+    "usnam-pmb": "^0.2.5"
+  },
+
+
+  "engines": { "npm": ">=7.0.0", "node": ">=16.0.0" }
+}
