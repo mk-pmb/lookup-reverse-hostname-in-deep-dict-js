@@ -1,5 +1,5 @@
 { "name": "lookup-reverse-hostname-in-deep-dict",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Lookup a reverse hostname (net.example.domain.sub.dom.ains) in a dictionary object where each level has one hostname part as the keys – or certain kinds of wildcards.",
   "keywords": [],
 
